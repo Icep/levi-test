@@ -1,13 +1,3 @@
-### Features
-* No typings.json or typings folder, they have been replaced by better **'@types'** modules in package.json.
-* ts-node(typescript execution environment for node) in cucumberOpts. 
-* All scripts written with > Typescript2.0 & Cucumber2.0.
-* Neat folder structures with transpiled js files in separate output folder.
-* Page Object design pattern implementation.
-* Extensive hooks implemented for BeforeFeature, AfterScenarios etc.
-* Screenshots on failure feature scenarios.
-
-
 ### To Get Started
 
 #### Pre-requisites
@@ -48,15 +38,11 @@ npm run tsc
 ```
 npm test
 ```
-![result](https://raw.githubusercontent.com/igniteram/protractor-cucumber-typescript/master/images/protractor-cucumber-typescript-result.gif)
-
-
 
 #### HTML Reports
 Currently this project has been integrated with [cucumber-html-reporter](https://github.com/gkushang/cucumber-html-reporter), which is generated in the `reports` folder when you run `npm test`.
 They can be customized according to user's specific needs.
 
-![cucumberreporterscreen](https://raw.githubusercontent.com/igniteram/protractor-cucumber-typescript/master/images/cucumberReporter.PNG)
 
 ## License
 ```   
